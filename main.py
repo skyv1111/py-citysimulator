@@ -84,18 +84,18 @@ BUILDING_TYPES = {
     },
     "Police Station": {
         "color": (105, 65, 95), "pop": 0, "rev": 70, "mai": 0, "cost": 150,
-        "images": {"north": pygame.image.load("assets/placeholder.png"), "south": pygame.image.load("assets/placeholder.png"),
-                   "east": pygame.image.load("assets/placeholder.png"), "west": pygame.image.load("assets/placeholder.png")},
+        "images": {"north": pygame.image.load("assets/serv_poli_n.png"), "south": pygame.image.load("assets/serv_poli_n.png"),
+                   "east": pygame.image.load("assets/serv_poli_n.png"), "west": pygame.image.load("assets/serv_poli_n.png")},
     },
     "Fire Station": {
         "color": (100, 60, 90), "pop": 0, "rev": 70, "mai": 0, "cost": 150,
-        "images": {"north": pygame.image.load("assets/placeholder.png"), "south": pygame.image.load("assets/placeholder.png"),
-                   "east": pygame.image.load("assets/placeholder.png"), "west": pygame.image.load("assets/placeholder.png")},
+        "images": {"north": pygame.image.load("assets/serv_fire_n.png"), "south": pygame.image.load("assets/serv_fire_n.png"),
+                   "east": pygame.image.load("assets/serv_fire_n.png"), "west": pygame.image.load("assets/serv_fire_n.png")},
     },
     "Hospital": {
         "color": (95, 55, 85), "pop": 0, "rev": 80, "mai":0, "cost": 200,
-        "images": {"north": pygame.image.load("assets/placeholder.png"), "south": pygame.image.load("assets/placeholder.png"),
-                   "east": pygame.image.load("assets/placeholder.png"), "west": pygame.image.load("assets/placeholder.png")},
+        "images": {"north": pygame.image.load("assets/serv_hosp_n.png"), "south": pygame.image.load("assets/serv_hosp_n.png"),
+                   "east": pygame.image.load("assets/serv_hosp_n.png"), "west": pygame.image.load("assets/serv_hosp_n.png")},
     },
     "Caravan Park": {
         "color": (60, 120, 70), "pop": 10, "rev": 0, "mai": 0, "cost": 100,
@@ -114,13 +114,13 @@ BUILDING_TYPES = {
     },
     "Market Stall": {
         "color": (20, 80, 120), "pop": 0, "rev": 30, "mai": 1, "cost": 75,
-        "images": {"north": pygame.image.load("assets/placeholder.png"), "south": pygame.image.load("assets/placeholder.png"),
-                   "east": pygame.image.load("assets/placeholder.png"), "west": pygame.image.load("assets/placeholder.png")},
+        "images": {"north": pygame.image.load("assets/comm_stal_n.png"), "south": pygame.image.load("assets/comm_stal_n.png"),
+                   "east": pygame.image.load("assets/comm_stal_n.png"), "west": pygame.image.load("assets/comm_stal_n.png")},
     },
     "Divine Diner": {
         "color": (15, 75, 115), "pop": 0, "rev": 150, "mai": 3, "cost": 300,
-        "images": {"north": pygame.image.load("assets/comm_dine_n.png"), "south": pygame.image.load("assets/placeholder.png"),
-                   "east": pygame.image.load("assets/placeholder.png"), "west": pygame.image.load("assets/placeholder.png")},
+        "images": {"north": pygame.image.load("assets/comm_dine_n.png"), "south": pygame.image.load("assets/comm_dine_n.png"),
+                   "east": pygame.image.load("assets/comm_dine_n.png"), "west": pygame.image.load("assets/comm_dine_n.png")},
     },
     "Pear Store": {
         "color": (10, 70, 110), "pop": 0, "rev": 1000, "mai": 10, "cost": 1000,
